@@ -1,0 +1,39 @@
+ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    display: block;
+}
+
+
+.container-gallery {
+    background: #FFF;
+    padding: 24px 156px;
+    outline: none;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: center; 
+    list-style: none;
+}
+
+    .gallery-image {
+    object-fit: cover;
+    transition: transform 0.4s;
+    width: 360px;
+    height: 200px;
+}
+
+.gallery-image:hover {
+    transform: scale(1.1);
+}
